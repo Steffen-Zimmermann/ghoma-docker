@@ -16,7 +16,7 @@ Quickstart commands:
 
 docker build -t ghoma-docker https://github.com/Steffen-Zimmermann/ghoma-docker.git
 
-docker run -d -p 3000:3000 -p 4196:4196 -e MQTT_SERVER=mqtt.eclipse.org -name ghoma-docker ghoma-docker
+docker run -d -p 3000:3000 -p 4196:4196 -e MQTT_SERVER=mqtt.eclipse.org --name ghoma-docker ghoma-docker
 
 get interativ console to set Wifi Smart Socket to own control server
 
